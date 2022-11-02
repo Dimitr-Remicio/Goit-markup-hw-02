@@ -5,31 +5,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width>, initial-scale=1.0">
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
     <title>goit-markup-hw-01. </title>
 </head>
 <body>
     <header>    
         <div class="header_menu">    
             <nav>
-               <a href="#">WebStudio</a>
-               <a href="#">estudio</a>
-               <a href="#">portafolio</a>
-               <a href="#">Contactos</a>      
+               <a href="#" class="text_1">WebStudio</a>
+               <a href="index.html" class="text_2">estudio</a>
+               <a href="portfolio.html" class="text_3">portafolio</a>
+               <a href="#" class="text_4">Contactos</a>      
            </nav>           
-               <a href="#">info@devstuido.com</a></li> 
-               <a href="#">+52 55 5529 6000</a>      
+               <a href="#" class="text_5">info@devstuido.com</a></li> 
+               <a href="#" class="text_6">+52 55 5529 6000</a>      
         </div>  
     </header>
 
     <main>
         <section class="section_title">
-            <h1>SOLUCIONES EFICACES PARA SU NEGOCIO</h1>
-            <div class="buttonn">
-                <input type="button" value="solicita nuestro servicio">    
+            <h1>SOLUCIONES EFICACES PARA<br>SU NEGOCIO</h1>
+            <div class="button">
+                <button type="button" class="fr_button">solicite nuestro servicio</button>    
             </div>
         </section>
 
-        <section>    
+        <section class="section_descripts">
+        <div style="overflow-x:auto;">    
             <table>
                 <thead>
                     <tr>
@@ -48,37 +52,38 @@
                     </tr>
                 </tbody>
             </table>
+        </div>
         </section>
         
            
 
-        <section>
+        <section class="section_dedication">
                 <h2>A que nos dedicamos</h2>
                 <ul>
-                    <li><img src="images/img1.jpg" alt="codigo esqueleto" width="200px"></li>
-                   <li><img src="images/img2.jpg" alt="diseño de pagina web" width="200px"></li>
-                    <li><img src="images/img3.jpg" alt="paleta de color para pagina" width="200px"></li>
+                    <li><img class="list_d_1" src="images/img1.jpg" alt="codigo esqueleto" ></li>
+                    <li><img class="list_d_2" src="images/img2.jpg" alt="diseño de pagina web"></li>
+                    <li><img class="list_d_3" src="images/img3.jpg" alt="paleta de color para pagina" ></li>
                 </ul>    
         </section>
                 
         
-        <section>
+        <section class="section_team">
             <h2>Nuestro Equipo</h2>
-            <ul>    
-                <li><img src="images/imagenprs1.jpg" alt="persona que se ocupa de diseñar" width="400px">
+            <ul class="list_sec">    
+                <li class="tarjet_1"><img src="images/imagenprs1.jpg" alt="persona que se ocupa de diseñar" width="400px">
                     <h3>Andres Cubo</h3>
                     <h4>Diseñador de productos</h4>
                 </li>
-                <li><img src="images/imagenprs2.jpg" alt="persona que es desarrolladora" width="400px">
+                <li class="tarjet_2"><img src="images/imagenprs2.jpg" alt="persona que es desarrolladora" width="400px">
                     <h3>Carla Palacios</h3>
                     <h4>Desarrolladora Frontend</h4>
                 </li>
-                <li>
+                <li class="tarjet_3">
                     <img src="images/imagenprs3.jpg" alt="persona encargada de realizar el marketing" width="400px">
                     <h3>Mario Dorado</h3>
                     <h4>Marketing</h4>
                 </li>
-                <li>
+                <li class="tarjet_4">
                     <img src="images/imagenprs4.jpg" alt="persona encargada del deseño iu" width="400px">
                     <h3>Pablo mijangos</h3>
                     <h4>Diseñador IU</h4>
@@ -88,8 +93,8 @@
         </section>
     </main>
 
-    <footer>
-        <address>
+    <footer class="footer_s">
+        <address class="addres_fin">
             <a href="#">WebStudio</a><br>
             Calz. Ticomán 500, Ciudad de México, CDMX, México<br>
             <a href="#">info@example.com</a><br>

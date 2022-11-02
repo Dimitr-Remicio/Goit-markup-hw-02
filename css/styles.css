@@ -1,24 +1,326 @@
 *{
-    margin: 0%;
-    padding: %;
     box-sizing: border-box;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-decoration: none;
+    list-style-type: none;
+    
 }
+
 
 .header_menu{
     background-color: rgb(255, 255, 255);
-    width: 100%;
-    position: fixed;
-    top: 0;
-    left: 0;
-    background: rgb(247, 235, 235);
-}
-.section_title{
     position: absolute;
-    width: 1600px;
+    width: 100%;
+    height: 90px;
+    left: 0px;
+    top: 5px;
+    bottom: 5px;
+    background: rgb(255, 255, 255);
+}
+.header_menu .text_1{
+    position: absolute;
+    left: 150px;
+    top: 24px;
+    
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 31px;
+
+    text-align: right;
+    letter-spacing: 0.03em;
+    
+    color: #2196F3;
+}
+.header_menu .text_2{
+    position: absolute;
+    width: 49px;
+    height: 16px;
+    left: 420px;
+    top: 32px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: #212121;
+}
+.header_menu .text_3{
+    position: absolute;
+    width: 65px;
+    height: 16px;
+    left: 540px;
+    top: 32px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    
+    color: #212121;
+}
+.header_menu .text_4{
+    position: absolute;
+    width: 0px;
+    height: 16px;
+    left: 670px;
+    top: 32px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    
+    color: #212121;
+}
+.header_menu .text_5{
+    position: absolute;
+    width: 135px;
+    height: 16px;
+    right: 400px;
+    top: 32px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    
+    color: #212121;    
+}
+.header_menu .text_6{
+    position: absolute;
+    width: 200px;
+    height: 16px;
+    right: 100px;
+    top: 32px;
+    
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    
+    
+    color: #757575;
+}
+
+/*transition text*/
+
+.header_menu nav > a:hover{
+    color: #2196F3;
+}
+
+/*button*/
+.fr_button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 32px;
+    gap: 10px;
+    position: absolute;
+    width: 261px;
+    height: 50px;
+    left: 666px;
+    top: 430px;
+    background: #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+
+    /*texto interno*/
+    width: 197px;
+    height: 30px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.section_title{
+    justify-content: center;
+    position: absolute;
+    width: 100%;
     height: 600px;
     left: -4px;
     top: 80px;
     background: #2F303A;
+    position: absolute;
+
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.section_title h1{
+    position: absolute;
+    width: auto;
+    height: 120px;
+    text-align: center;
+    top: 150px;
+    margin-left:32%;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.fr_button{
+    position: absolute;
+    border-radius: 10px;
+    font-size:14px;
+    width: 261px;
+    height: 50px;
+    left: 800px;
+    top: 320px;
+}
+.fr_button:hover{
+    background-color: #F5F4FA;
+    color: #212121;
+}
+
+.section_descripts{
+    justify-content: center;
+    position: absolute;
+    width: 1500px;
+    height: 122px;
+    left: 180px;
+    top: 775px;
+
+}
+.section_descripts thead{
+    text-align:left;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    
+    color: #212121;
+}
+
+.section_descripts tbody{
+    font-family: 'Roboto';
+    padding: 50px;
+    text-align: left;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    /* or 171% */
+    
+    letter-spacing: 0.03em;
+    
+    color: #757575;
+}
+/*A QUE NOS DEEDICAMOS*/
+.section_dedication {
+    
+    align-items: center;
+    position: absolute;
+    width: 1500px;
+    height: 425px;
+    left: 180px;
+    top: 1000px;
+}
+.section_dedication h2{
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500%;
+    font-size: 36px;
+    line-height: 4px;
+    letter-spacing: 0.03em;
+    padding-bottom: 30px;
+    color: #000000;
+}
+
+.list_d_1{
+    position: absolute;
+    height: 400px;
+    left: 0px;
+
+}
+.list_d_2{
+    position: absolute;
+    height: 400px;
+    left: 34.5%;
+}
+.list_d_3{
+    position: absolute;
+    height: 400px;
+    right: 0px;
+}
+.section_team{
+    position: absolute;
+width: 2500px;
+height: 648px;
+left: 0px;
+top: 1510px;
+
+background: #F5F4FA;
+}
+.list_sec{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+
+}
+.tarjet_1{
+    position: absolute;
+    width: 270px;
+    height: 368px;
+    left: 0px;
+
+}
+.tarjet_2{
+    position: absolute;
+    width: 270px;
+    height: 368px;
+    left: 300px;
+
+}
+.tarjet_3{
+    position: absolute;
+    width: 270px;
+    height: 368px;
+    left: 822px;
+}
+.tarjet_4{
+    position: absolute;
+    width: 270px;
+    height: 368px;
+    left: 1500px;
+}
+
+
+.footer_s{
+    position: absolute;
+width: 100%;
+height: 252px;
+left: 0px;
+top: 2158px;
+
+background: #2F303A;
 }

@@ -1,18 +1,24 @@
 *{
     margin: 0%;
-    padding: 0%;
+    padding: %;
     box-sizing: border-box;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-decoration: none;
 }
-header{
+
+.header_menu{
+    background-color: rgb(255, 255, 255);
     width: 100%;
     position: fixed;
     top: 0;
     left: 0;
-    background: rgb(32, 32, 32);
-    
+    background: rgb(247, 235, 235);
 }
-.header_menu{
-    background-color: black;
+.section_title{
+    position: absolute;
+    width: 1600px;
+    height: 600px;
+    left: -4px;
+    top: 80px;
+    background: #2F303A;
 }

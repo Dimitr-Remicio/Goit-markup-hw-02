@@ -6,7 +6,6 @@
     
 }
 
-
 .header_menu{
     background-color: rgb(255, 255, 255);
     position: absolute;
@@ -16,8 +15,9 @@
     top: 5px;
     bottom: 5px;
     background: rgb(255, 255, 255);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
-.header_menu .text_1{
+.text_1{
     position: absolute;
     left: 150px;
     top: 24px;
@@ -33,7 +33,7 @@
     
     color: #2196F3;
 }
-.header_menu .text_2{
+.text_2{
     position: absolute;
     width: 49px;
     height: 16px;
@@ -48,7 +48,7 @@
     letter-spacing: 0.02em;
     color: #212121;
 }
-.header_menu .text_3{
+.text_3{
     position: absolute;
     width: 65px;
     height: 16px;
@@ -64,7 +64,7 @@
     
     color: #212121;
 }
-.header_menu .text_4{
+.text_4{
     position: absolute;
     width: 0px;
     height: 16px;
@@ -80,7 +80,7 @@
     
     color: #212121;
 }
-.header_menu .text_5{
+.email_1{
     position: absolute;
     width: 135px;
     height: 16px;
@@ -96,7 +96,7 @@
     
     color: #212121;    
 }
-.header_menu .text_6{
+.number_1{
     position: absolute;
     width: 200px;
     height: 16px;
@@ -138,8 +138,6 @@
     border-radius: 4px;
 
     /*texto interno*/
-    width: 197px;
-    height: 30px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
@@ -274,7 +272,7 @@
 }
 .section_team{
     position: absolute;
-width: 2500px;
+width:100%;
 height: 648px;
 left: 0px;
 top: 1510px;
@@ -311,16 +309,154 @@ background: #F5F4FA;
     position: absolute;
     width: 270px;
     height: 368px;
-    left: 1500px;
+    left: 1300px;
 }
 
 
-.footer_s{
-    position: absolute;
-width: 100%;
-height: 252px;
-left: 0px;
-top: 2158px;
 
-background: #2F303A;
+/* PORTAFOLIO SECCION */
+
+.filters{
+    position: absolute;
+    width: 611px;
+    height: 54px;
+    left: 655px;
+    top: 150px;
+    border: 0px;   
+}
+.filters button{
+    border: 0px;
+    width: 100px;
+    height: 40px;
+    padding: 5px 5px ;
+    margin-right: 10px;
+    border-radius: 5px;
+    font-family: 'roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+}
+.filters button:hover{
+    background-color: #46a8f8;
+    color: #FFFFFF;
+}
+
+.section_project{
+    text-align: center;
+    position: absolute;
+    padding-top: 200px;
+    align-items: center;
+    left: 235px;
+    
+}
+.section_project h2{
+    left: 700px;
+}
+.proj_1{
+    position: absolute;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.proj_2{
+    position: absolute;
+    left: 500px;
+    padding: 20px;
+
+}
+.proj_3{
+    position: absolute;
+    padding: 20px;
+    left: 950px;
+}
+.proj_4{
+    position: absolute;
+    padding: 20px;
+    top: 800px;
+}
+.proj_5{
+    position: absolute;
+    padding: 20px;
+    left: 500px;
+    top: 800px;
+
+}
+.proj_6{
+    position: absolute;
+    padding: 20px;
+    left: 950px;
+    top: 800px;
+
+}
+.proj_7{
+    position: absolute;
+    padding: 20px;
+    top: 1300px;
+}
+.proj_8{
+    position: absolute;
+    padding: 20px;
+    left: 500px;
+    top: 1300px;
+
+}
+.proj_9{
+    position: absolute;
+    padding: 20px;
+    left: 950px;
+    top: 1300px;
+
+}
+
+.addres_fin{
+    position: absolute;
+    width: 100%;
+    height: 252px;
+    left: 0px;
+    top: 1628px;
+    
+    background: #2F303A;
+}
+
+/* FOOTER*/
+
+.footer_s{
+    background: #2F303A;
+    position:absolute;
+    left:0px;
+    top:2100px;
+    height:230px;
+    width:100%;
+    color: #FFFFFF;
+}
+.footer_c{
+    background: #2F303A;
+    position:absolute;
+    left:0px;
+    top:1900px;
+    height:230px;
+    width:100%;
+    color: #FFFFFF;
+}
+.adress_{
+    position: absolute;
+    top: 20px;
+    width: 100%;
+}
+.ubication_{
+    position: absolute;
+    left: 150px;
+    top: 70px;
+}
+.email_2{
+    position: absolute;
+    color: rgb(255, 255, 255, 0.6);
+    left: 150px;
+    top: 120px;
+}
+.number_2{
+    position: absolute;
+    color: rgb(255, 255, 255, 0.6);
+    left: 150px;
+    top: 150px;
 }
